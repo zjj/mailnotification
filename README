@@ -1,0 +1,22 @@
+Usage:
+#mail-daemon 192.168.2.8 username@example.com password &
+
+the default port is 110,you could change it in the mail-daemon.c  
+
+#ps aux | grep mail-daemon
+mole 26606  0.0  0.1  14008  2260 ?  S  15:01 0:00 mail-daemon 192.168.2.8 zhongjj@example.com *********
+
+the password would not visible ! :)
+
+WARNNING:
+for security,if you want to run the daemon while system up,keep the command script safe !
+
+
+the default mail icon is under /usr/share/icons/mail as /usr/share/icons/mail/mail.png
+you could also modify it to your own path of a good-looking icon.
+
+
+
+
+My email :79492390@qq.com or menghuizhanguo@gmail.com ...
+   
